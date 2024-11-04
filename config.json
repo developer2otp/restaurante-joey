@@ -1,0 +1,21 @@
+{
+    "CEL_SYSTEM": "000 000 000",
+    "NOMBRE_SOFT": "LORETO SOFT",
+    "DESCRIPCION_COMPROBANTE": true,
+    "URL_VENTA_RAPIDA": true,
+    "PRICE_COMANDA": true,
+    "OPTION_DELETE_MESA": false,
+    "DB_HOST": "localhost",
+    "DB_NAME": "u858254145_demo",
+    "DB_USER": "u858254145_demo",
+    "DB_PASS": "@123Qwe123@",
+    "API_TOKEN": "a3e20be04068cd29796811fcdc6a4e79c32124c84fbe072e54afcb4b1d28ea86",
+    "DESCRIP_NOTA": "Indique una nota a su pedido",
+    "NAME_NEGOCIO": "POLLERIA ROKYS",
+    "NAME_CIUDAD": "LIMA -PER\u00da",
+    "HORARIO_ATENCION": "<strong>L-M-M-J-V-S 8AM - 9PM<\/strong><br>Domingo: cerrado",
+    "URL_TW": "#",
+    "URL_FB": "#https:\/\/www.facebook.com\/profile.php?id=10008984766642096",
+    "URL_INS": "#https:\/\/www.instagram.com\/grupoperus07\/",
+    "URL_LINK": "#"
+}

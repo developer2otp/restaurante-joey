@@ -1,0 +1,61 @@
+#step-pedidos ol {
+  position: relative;
+  overflow: hidden;
+  padding-left: 0px;
+  counter-reset: wizard;
+}
+
+#step-pedidos li {
+  position: relative;
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  display: unset;
+}
+
+#step-pedidos .active ~ li {
+  color: #e0e0e0;
+}
+
+#step-pedidos li:before {
+  counter-increment: wizard;
+  content: counter(wizard);
+  display: block;
+  color: transparent;
+  font-size: 5px;
+  background-color: #8fca00;
+  border: 2px solid #8fca00;
+  text-align: center;
+  width: 14px;
+  height: 14px;
+  line-height: 1.5em;
+  border-radius: 1.5em;
+  position: relative;
+  left: 50%;
+  margin-bottom: 1em;
+  margin-left: -1em;
+  z-index: 1;
+}
+#step-pedidos .active ~ li:before {
+  background-color: #e0e0e0;
+  color: #e0e0e0;
+  border-color: #e0e0e0;
+}
+
+#step-pedidos li + li:after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #8fca00;
+  height: 2px;
+  position: absolute;
+  left: -50%;
+  top: 0.5em;
+  z-index: 0;
+}
+
+#step-pedidos .active ~ li:after {
+  background-color: #e0e0e0;
+}

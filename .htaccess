@@ -1,0 +1,16 @@
+RewriteEngine On
+# en caso sea una instalacion local /nombredecarpeta/ sino dejarlo con un /
+RewriteBase //
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+#php_flag log_errors on
+#php_value error_log /usr/home/jbwsof/php.log
+
+# Redirigir a HTTPS si no está habilitado (quitar comentarios si es necesario)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

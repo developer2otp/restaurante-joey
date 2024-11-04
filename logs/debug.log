@@ -1,0 +1,6 @@
+[01-Jul-2024 22:16:29 America/Lima] PHP Warning:  Undefined variable $restar in /home/u858254145/domains/facturalo07.store/public_html/demo/views/venta/imprimir/comanda.php on line 65
+[01-Jul-2024 22:19:30 America/Lima] PHP Warning:  Undefined variable $restar in /home/u858254145/domains/facturalo07.store/public_html/demo/views/venta/imprimir/comanda.php on line 65
+[01-Jul-2024 22:22:00 America/Lima] PHP Warning:  Undefined variable $restar in /home/u858254145/domains/facturalo07.store/public_html/demo/views/venta/imprimir/comanda.php on line 65
+[01-Jul-2024 22:26:43 America/Lima] PHP Warning:  Undefined array key "stock_pollo" in /home/u858254145/domains/facturalo07.store/public_html/demo/models/caja_model.php on line 217
+[01-Jul-2024 22:26:59 America/Lima] PHP Warning:  Undefined variable $restar in /home/u858254145/domains/facturalo07.store/public_html/demo/views/venta/imprimir/comanda.php on line 65
+[01-Jul-2024 22:27:15 America/Lima] PHP Warning:  Undefined variable $restar in /home/u858254145/domains/facturalo07.store/public_html/demo/views/venta/imprimir/comanda.php on line 65
